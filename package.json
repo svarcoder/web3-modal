@@ -1,0 +1,59 @@
+{
+	"name": "web3-modal",
+	"version": "0.1.0",
+	"author": "subham_char",
+	"private": true,
+	"dependencies": {
+		"@coinbase/wallet-sdk": "^3.6.3",
+		"@ledgerhq/connect-kit-loader": "^1.0.2",
+		"@portis/web3": "^4.0.7",
+		"@reduxjs/toolkit": "^1.9.1",
+		"@testing-library/jest-dom": "^5.16.5",
+		"@testing-library/react": "^13.4.0",
+		"@testing-library/user-event": "^14.4.3",
+		"@toruslabs/torus-embed": "^1.38.7",
+		"@types/jest": "^27.5.2",
+		"@types/node": "^17.0.45",
+		"@types/react": "^18.0.27",
+		"@types/react-dom": "^18.0.10",
+		"@walletconnect/web3-provider": "^1.8.0",
+		"authereum": "^0.1.14",
+		"bitski": "^3.2.0",
+		"bootstrap": "5.3.0-alpha1",
+		"eth-provider": "^0.13.6",
+		"ethers": "^5.7.2",
+		"fortmatic": "^2.4.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-redux": "^8.0.5",
+		"react-scripts": "4.0.3",
+		"typescript": "^4.9.4",
+		"walletlink": "^2.5.0",
+		"web-vitals": "^2.1.4",
+		"web3modal": "^1.9.12"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}
